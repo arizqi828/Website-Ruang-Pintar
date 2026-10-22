@@ -1,6 +1,6 @@
 # 🎓 Ruang Pintar — Website Company Profile
 
-**Dikembangkan oleh Rizqi Akbar Maulana, S.Kel** · Web Developer (Proyek Mandiri)
+**Dikembangkan oleh Rizqi Akbar Maulana, S.Kel** · Web Developer
 
 Website company profile untuk **Ruang Pintar Bimbingan Belajar** (Girimekar, Cilengkrang, Kabupaten Bandung), bimbel untuk jenjang **PAUD sampai SMA**, plus persiapan **SNBT** dan kelas **mengaji**. Dibuat dari nol dengan HTML, CSS, dan JavaScript murni, tanpa framework.
 
