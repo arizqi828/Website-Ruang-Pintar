@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fasilitas &amp; Kegiatan - Ruang Pintar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <a href="index.html" class="logo" aria-label="Ruang Pintar - Beranda">
+      <img src="image/logo.png" alt="Ruang Pintar - Bimbingan Belajar" class="logo-img">
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="menu" class="menu" aria-label="Menu utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang-kami.html">Tentang Kami</a></li>
+        <li><a href="layanan.html">Layanan</a></li>
+        <li><a href="prestasi.html">Prestasi</a></li>
+        <li><a href="fasilitas-kegiatan.html" class="active">Fasilitas &amp; Kegiatan</a></li>
+        <li class="cta"><a href="https://wa.me/6282319390293?text=Halo%20Ruang%20Pintar%2C%20Saya%20ingin%20bertanya%20terkait%20layanan%20yang%20tersedia" target="_blank" rel="noopener">Hubungi Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= JUDUL HALAMAN ================= -->
+    <section class="page-head has-orns">
+      <p class="pill"><span class="pill-dot"></span>Fasilitas &amp; Kegiatan</p>
+      <h1>Ruang belajar yang nyaman, kegiatan yang <em>berkesan</em></h1>
+      <p class="lead">
+        Intip ruang-ruang di Ruang Pintar dan kegiatan yang pernah
+        kami laksanakan bersama murid.
+      </p>
+      <div class="orns" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- ================= FASILITAS ================= -->
+    <section class="gallery has-orns" id="fasilitas">
+      <div class="team-title">
+        <h2>Fasilitas</h2>
+        <p>Ruang-ruang yang mendukung anak belajar dengan nyaman.</p>
+      </div>
+
+      <div class="carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Foto fasilitas" tabindex="0">
+        <div class="car-stage">
+          <div class="car-viewport">
+            <div class="car-track">
+
+              <figure class="car-slide">
+                <div class="car-photo" data-initials="RT">
+                  <img src="image/fasilitas-ruang-tunggu.png" alt="Ruang tunggu dengan sofa" loading="lazy" decoding="async" onerror="this.remove()">
+                </div>
+                <figcaption class="car-caption">
+                  <strong>Ruang Tunggu</strong>
+                  <span>Sofa yang nyaman untuk orang tua dan murid menunggu jam belajar.</span>
+                </figcaption>
+              </figure>
+
+              <figure class="car-slide">
+                <div class="car-photo" data-initials="AD">
+                  <img src="image/fasilitas-admin.png" alt="Ruang admin" loading="lazy" decoding="async" onerror="this.remove()">
+                </div>
+                <figcaption class="car-caption">
+                  <strong>Ruang Admin</strong>
+                  <span>Tempat bertanya seputar program, jadwal, dan pendaftaran.</span>
+                </figcaption>
+              </figure>
+
+              <figure class="car-slide">
+                <div class="car-photo" data-initials="RK">
+                  <img src="image/fasilitas-ruang-kelas.png" alt="Ruang kelas" loading="lazy" decoding="async" onerror="this.remove()">
+                </div>
+                <figcaption class="car-caption">
+                  <strong>Ruang Kelas</strong>
+                  <span>Ruang belajar tempat anak-anak belajar bersama tutor.</span>
+                </figcaption>
+              </figure>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="car-controls">
+          <button type="button" class="car-btn car-prev" aria-label="Foto sebelumnya">&larr;</button>
+          <div class="car-dots" role="tablist" aria-label="Pilih foto"></div>
+          <button type="button" class="car-btn car-next" aria-label="Foto berikutnya">&rarr;</button>
+        </div>
+      </div>
+
+      <div class="orns" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- ================= KEGIATAN ================= -->
+    <section class="gallery gallery-alt has-orns" id="kegiatan">
+      <div class="team-title">
+        <h2>Kegiatan</h2>
+        <p>Dokumentasi kegiatan di Ruang Pintar.</p>
+      </div>
+
+      <div class="carousel" data-carousel role="region" aria-roledescription="carousel" aria-label="Foto kegiatan" tabindex="0">
+        <div class="car-stage">
+          <div class="car-viewport">
+            <div class="car-track">
+
+              <figure class="car-slide">
+                <div class="car-photo" data-initials="TO">
+                  <img src="image/kegiatan-tryout.jpg" alt="Kegiatan Try Out Tes Kemampuan Akademik (TKA) SDN 3 Giri Mekar" loading="lazy" decoding="async" onerror="this.remove()">
+                </div>
+                <figcaption class="car-caption">
+                  <strong>Try Out</strong>
+                  <span>Melaksanakan Try Out Tes Kemampuan Akademik (TKA) SDN 3 Giri Mekar Tahun Pembelajaran 2026/2027</span>
+                </figcaption>
+              </figure>
+
+              <!-- Foto kegiatan berikutnya: salin blok <figure class="car-slide"> di atas, ganti foto dan keterangannya -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="car-controls">
+          <button type="button" class="car-btn car-prev" aria-label="Foto sebelumnya">&larr;</button>
+          <div class="car-dots" role="tablist" aria-label="Pilih foto"></div>
+          <button type="button" class="car-btn car-next" aria-label="Foto berikutnya">&rarr;</button>
+        </div>
+      </div>
+
+      <div class="orns" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- ================= LOKASI ================= -->
+    <section class="visit has-orns">
+      <div class="section-head">
+        <p class="pill"><span class="pill-dot"></span>Lokasi</p>
+        <h2>Kunjungi <em>Ruang Pintar</em></h2>
+        <p class="lead">Datang langsung untuk melihat ruang belajarnya, atau hubungi kami lebih dulu.</p>
+      </div>
+
+      <div class="visit-grid">
+        <div class="visit-info">
+          <span class="open-badge" id="openStatus" hidden></span>
+
+          <h3>Alamat</h3>
+          <address>Ruang Pintar Bimbingan Belajar, Jl. Giri Mekar No.13, Girimekar, Cilengkrang, Kabupaten Bandung</address>
+
+          <h3>Jam kerja</h3>
+          <dl class="hours">
+            <div data-hari="weekday"><dt>Senin - Jumat</dt><dd>08.00 - 20.00</dd></div>
+            <div data-hari="weekend"><dt>Sabtu - Minggu</dt><dd>08.00 - 12.00</dd></div>
+          </dl>
+        </div>
+
+        <div class="visit-map">
+          <iframe title="Peta lokasi Ruang Pintar" src="https://maps.google.com/maps?q=Ruang+Pintar+Bimbingan+Belajar%2C+Jl.+Giri+Mekar+No.13%2C+Girimekar%2C+Cilengkrang%2C+Kabupaten+Bandung&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="orns" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <p class="footer-logo">Ruang <em>Pintar</em></p>
+        <p class="footer-tag">Bimbingan belajar PAUD sampai SMA, plus persiapan ujian SNBT dan kelas mengaji.</p>
+
+        <ul class="social" aria-label="Media sosial Ruang Pintar">
+          <li>
+            <a href="https://instagram.com/ruangpintarbdg" target="_blank" rel="noopener" aria-label="Instagram @ruangpintarbdg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@ruangpintarbdg" target="_blank" rel="noopener" aria-label="TikTok @ruangpintarbdg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.1 4.2 5 4.4"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/RuangPintar" target="_blank" rel="noopener" aria-label="Telegram Ruang Pintar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10.5l6 2.2 2.3 6.3 3-4.3 5.2 3.8z"/><path d="M9 12.7 21 3"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/ruangpintarbdg" target="_blank" rel="noopener" aria-label="Twitter / X @ruangpintarbdg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16"/><path d="M20 4 4 20"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:ruangpintarbdg@gmail.com" aria-label="Email ruangpintarbdg@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6.5L20.5 7"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-col" aria-label="Menu footer">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+          <li><a href="prestasi.html">Prestasi</a></li>
+          <li><a href="fasilitas-kegiatan.html">Fasilitas &amp; Kegiatan</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h3>Hubungi kami</h3>
+        <ul>
+          <li><a href="https://wa.me/6282319390293?text=Halo%20Ruang%20Pintar" target="_blank" rel="noopener">WhatsApp 0823-1939-0293</a></li>
+          <li><a href="mailto:ruangpintarbdg@gmail.com">ruangpintarbdg@gmail.com</a></li>
+          <li><a href="https://instagram.com/ruangpintarbdg" target="_blank" rel="noopener">Instagram @ruangpintarbdg</a></li>
+          <li><a href="https://www.tiktok.com/@ruangpintarbdg" target="_blank" rel="noopener">TikTok @ruangpintarbdg</a></li>
+          <li><a href="https://t.me/RuangPintar" target="_blank" rel="noopener">Telegram @RuangPintar</a></li>
+          <li><a href="https://x.com/ruangpintarbdg" target="_blank" rel="noopener">Twitter @ruangpintarbdg</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="footer-copy">&copy; 2026 Ruang Pintar Bimbingan Belajar. Girimekar, Cilengkrang, Kabupaten Bandung.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+  <!-- Slider foto: geser otomatis, keterangan ikut berganti -->
+  <script>
+  (function () {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var DELAY = 3000;
+
+    document.querySelectorAll('[data-carousel]').forEach(function (root) {
+      var track  = root.querySelector('.car-track');
+      var slides = Array.prototype.slice.call(root.querySelectorAll('.car-slide'));
+      var dotsBox = root.querySelector('.car-dots');
+      var prev = root.querySelector('.car-prev');
+      var next = root.querySelector('.car-next');
+      var n = slides.length;
+      var i = 0, timer = null, dots = [];
+
+      // Hanya 1 foto: tampil saja, tanpa tombol dan tanpa geser otomatis
+      if (n <= 1) {
+        root.classList.add('is-single');
+        if (slides[0]) slides[0].classList.add('is-active');
+        return;
+      }
+
+      slides.forEach(function (s, idx) {
+        var d = document.createElement('button');
+        d.type = 'button';
+        d.className = 'car-dot';
+        d.setAttribute('role', 'tab');
+        d.setAttribute('aria-label', 'Foto ' + (idx + 1));
+        d.addEventListener('click', function () { go(idx); restart(); });
+        dotsBox.appendChild(d);
+        dots.push(d);
+      });
+
+      function go(k) {
+        i = (k + n) % n;
+        track.style.transform = 'translateX(' + (-i * 100) + '%)';
+        slides.forEach(function (s, idx) {
+          var on = idx === i;
+          s.classList.toggle('is-active', on);
+          s.setAttribute('aria-hidden', on ? 'false' : 'true');
+        });
+        dots.forEach(function (d, idx) {
+          d.classList.toggle('active', idx === i);
+          d.setAttribute('aria-selected', idx === i ? 'true' : 'false');
+        });
+      }
+
+      function start() { if (!reduce && !timer) timer = setInterval(function () { go(i + 1); }, DELAY); }
+      function stop()  { clearInterval(timer); timer = null; }
+      function restart() { stop(); start(); }
+
+      prev.addEventListener('click', function () { go(i - 1); restart(); });
+      next.addEventListener('click', function () { go(i + 1); restart(); });
+
+      // Berhenti saat kursor di atas foto atau saat fokus keyboard
+      root.addEventListener('mouseenter', stop);
+      root.addEventListener('mouseleave', start);
+      root.addEventListener('focusin', stop);
+      root.addEventListener('focusout', start);
+      document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
+
+      // Panah kiri/kanan di keyboard
+      root.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') { go(i + 1); }
+        if (e.key === 'ArrowLeft')  { go(i - 1); }
+      });
+
+      // Geser dengan jari di HP
+      var x0 = null;
+      root.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; stop(); }, { passive: true });
+      root.addEventListener('touchend', function (e) {
+        if (x0 !== null) {
+          var dx = e.changedTouches[0].clientX - x0;
+          if (Math.abs(dx) > 40) go(dx < 0 ? i + 1 : i - 1);
+        }
+        x0 = null;
+        start();
+      });
+
+      go(0);
+      start();
+    });
+  })();
+  </script>
+</body>
+</html>

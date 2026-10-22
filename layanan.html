@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layanan - Ruang Pintar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <a href="index.html" class="logo" aria-label="Ruang Pintar - Beranda">
+      <img src="image/logo.png" alt="Ruang Pintar - Bimbingan Belajar" class="logo-img">
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="menu" class="menu" aria-label="Menu utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang-kami.html">Tentang Kami</a></li>
+        <li><a href="layanan.html" class="active">Layanan</a></li>
+        <li><a href="prestasi.html">Prestasi</a></li>
+        <li><a href="fasilitas-kegiatan.html">Fasilitas & Kegiatan</a></li>
+        <li class="cta"><a href="https://wa.me/6282319390293?text=Halo%20Ruang%20Pintar%2C%20Saya%20ingin%20bertanya%20terkait%20layanan%20yang%20tersedia" target="_blank" rel="noopener">Hubungi Kami</a></li>      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= JUDUL HALAMAN ================= -->
+    <section class="page-head has-orns">
+      <p class="pill"><span class="pill-dot"></span>Layanan</p>
+      <h1>Program belajar untuk setiap <em>jenjang</em></h1>
+      <p class="lead">
+        Dari PAUD sampai SMA, tersedia pilihan bimbel kelompok, private,
+        dan private ke rumah sesuai kebutuhan anak.
+      </p>
+      <div class="orns" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- ================= DAFTAR LAYANAN ================= -->
+    <section class="services has-orns">
+      <p class="services-note">Semua harga berlaku untuk 8x pertemuan.</p>
+
+      <div class="service-grid">
+
+        <!-- PAUD -->
+        <article class="service" id="paud">
+          <h2>PAUD</h2>
+          <p class="desc">Permainan motorik dan fokus sebagai persiapan sebelum anak belajar membaca dan menulis. Diutamakan untuk anak usia 3 tahun.</p>
+          <ul class="info">
+            <li>Melatih motorik dan sensorik</li>
+            <li>Durasi 120 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Bimbel</dt><dd>Rp 300.000</dd></div>
+            <div><dt>Private</dt><dd>Rp 450.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 650.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 50.000</p>
+        </article>
+
+        <!-- TK -->
+        <article class="service" id="tk">
+          <h2>TK</h2>
+          <p class="desc">Belajar calistung (membaca, menulis, dan berhitung).</p>
+          <ul class="notes">
+            <li>Tidak ada jaminan anak langsung bisa membaca dalam waktu tertentu, karena kecepatan belajar setiap anak berbeda.</li>
+            <li>Anak yang sudah lulus membaca dan disetujui tutor bisa kami bantu buatkan sertifikat lulus membaca.</li>
+            <li>Anak yang sudah di TK A biasanya langsung kami sarankan ke kelas ini.</li>
+          </ul>
+          <ul class="info">
+            <li>Membaca, Menulis, Berhitung</li>
+            <li>Durasi 90 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Private</dt><dd>Rp 300.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 500.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 50.000</p>
+        </article>
+
+        <!-- SD 1-2 -->
+        <article class="service" id="sd-1-2">
+          <h2>SD Kelas 1 dan 2</h2>
+          <ul class="notes">
+            <li>Bimbel: mata pelajaran dan jam belajar sudah ditentukan, tidak bisa dipilih.</li>
+            <li>Private: mata pelajaran dan jam belajar bisa dipilih sesuai kebutuhan anak.</li>
+            <li>Materi boleh mengikuti pelajaran sekolah, selama ada buku paketnya dan dibawa setiap les.</li>
+          </ul>
+          <ul class="info">
+            <li>Matematika, Bahasa Inggris</li>
+            <li>Durasi 90 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Bimbel</dt><dd>Rp 200.000</dd></div>
+            <div><dt>Private</dt><dd>Rp 400.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 600.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 50.000</p>
+        </article>
+
+        <!-- SD 3-6 -->
+        <article class="service" id="sd-3-6">
+          <h2>SD Kelas 3, 4, 5, dan 6</h2>
+          <ul class="notes">
+            <li>Bimbel: mata pelajaran dan jam belajar sudah ditentukan, tidak bisa dipilih.</li>
+            <li>Private: mata pelajaran dan jam belajar bisa dipilih sesuai kebutuhan anak.</li>
+            <li>Materi boleh mengikuti pelajaran sekolah, selama ada buku paketnya dan dibawa setiap les.</li>
+          </ul>
+          <ul class="info">
+            <li>Matematika, Bahasa Inggris, IPAS</li>
+            <li>Durasi 120 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Bimbel</dt><dd>Rp 250.000</dd></div>
+            <div><dt>Private</dt><dd>Rp 450.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 650.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 50.000</p>
+        </article>
+
+        <!-- SMP -->
+        <article class="service" id="smp">
+          <h2>SMP Kelas 7, 8, dan 9</h2>
+          <ul class="notes">
+            <li>Bimbel: mata pelajaran dan jam belajar sudah ditentukan, tidak bisa dipilih.</li>
+            <li>Private: mata pelajaran dan jam belajar bisa dipilih sesuai kebutuhan anak.</li>
+            <li>Materi boleh mengikuti pelajaran sekolah, selama ada buku paketnya dan dibawa setiap les.</li>
+          </ul>
+          <ul class="info">
+            <li>Matematika, Bahasa Inggris, IPA, IPS</li>
+            <li>Durasi 120 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Bimbel</dt><dd>Rp 350.000</dd></div>
+            <div><dt>Private</dt><dd>Rp 550.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 750.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 100.000</p>
+        </article>
+
+        <!-- SMA -->
+        <article class="service" id="sma">
+          <h2>SMA Kelas 10, 11, dan 12</h2>
+          <p class="desc">Mata pelajaran menyesuaikan jurusan anak, IPA atau IPS.</p>
+          <ul class="notes">
+            <li>Bimbel: mata pelajaran dan jam belajar sudah ditentukan, tidak bisa dipilih.</li>
+            <li>Private: mata pelajaran dan jam belajar bisa dipilih sesuai kebutuhan anak.</li>
+            <li>Materi boleh mengikuti pelajaran sekolah, selama ada buku paketnya dan dibawa setiap les.</li>
+          </ul>
+          <ul class="info">
+            <li>Matematika, Bahasa Inggris, IPA, IPS</li>
+            <li>Durasi 120 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Bimbel</dt><dd>Rp 450.000</dd></div>
+            <div><dt>Private</dt><dd>Rp 700.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 900.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 100.000</p>
+        </article>
+
+        <!-- INTENSIF SNBT -->
+        <article class="service service-featured" id="snbt">
+          <h2>Intensif Ujian SNBT</h2>
+          <ul class="info">
+            <li>7 mata uji UTBK</li>
+            <li>Durasi 120 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Bimbel</dt><dd>Rp 600.000</dd></div>
+            <div><dt>Private</dt><dd>Rp 1.000.000</dd></div>
+            <div><dt>Private ke rumah</dt><dd>Rp 1.200.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 100.000</p>
+        </article>
+
+        <!-- MENGAJI -->
+        <article class="service" id="mengaji">
+          <h2>Mengaji</h2>
+          <ul class="info">
+            <li>Membaca Iqra/Al-Qur'an, hafalan Al-Qur'an dan surat-surat pendek</li>
+            <li>Durasi 90 menit/pertemuan</li>
+            <li>2x dalam 1 minggu</li>
+          </ul>
+          <dl class="prices">
+            <div><dt>Private SD</dt><dd>Rp 300.000</dd></div>
+            <div><dt>Private SMP</dt><dd>Rp 400.000</dd></div>
+            <div><dt>Private SMA</dt><dd>Rp 500.000</dd></div>
+          </dl>
+          <p class="reg">Biaya pendaftaran Rp 100.000</p>
+        </article>
+
+      </div>
+      <div class="orns" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+        <!-- ================= AJAKAN ================= -->
+    <section class="cta-wrap">
+      <div class="cta-card">
+
+        <div class="cta-text">
+          <p class="pill"><span class="pill-dot"></span>Tanya admin</p>
+          <h2>Bingung memilih program yang <em>cocok</em>?</h2>
+          <p>Hubungi kami, kami bantu pilihkan sesuai usia dan kebutuhan anak.</p>
+        </div>
+
+        <div class="cta-action">
+          <a class="btn btn-primary cta-btn" href="https://wa.me/6282319390293?text=Halo%20Ruang%20Pintar%2C%20Saya%20ingin%20bertanya%20terkait%20layanan%20yang%20tersedia" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>
+            Chat via WhatsApp
+          </a>
+          <small>Senin - Jumat 08.00 - 20.00<br>Sabtu - Minggu 08.00 - 12.00</small>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer footer-gold">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <p class="footer-logo">Ruang <em>Pintar</em></p>
+        <p class="footer-tag">Bimbingan belajar PAUD sampai SMA, plus persiapan ujian SNBT dan kelas mengaji.</p>
+
+        <ul class="social" aria-label="Media sosial Ruang Pintar">
+          <li>
+            <a href="https://instagram.com/ruangpintarbdg" target="_blank" rel="noopener" aria-label="Instagram @ruangpintarbdg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@ruangpintarbdg" target="_blank" rel="noopener" aria-label="TikTok @ruangpintarbdg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.1 4.2 5 4.4"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/RuangPintar" target="_blank" rel="noopener" aria-label="Telegram Ruang Pintar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10.5l6 2.2 2.3 6.3 3-4.3 5.2 3.8z"/><path d="M9 12.7 21 3"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/ruangpintarbdg" target="_blank" rel="noopener" aria-label="Twitter / X @ruangpintarbdg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16"/><path d="M20 4 4 20"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:ruangpintarbdg@gmail.com" aria-label="Email ruangpintarbdg@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6.5L20.5 7"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-col" aria-label="Menu footer">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang-kami.html">Tentang Kami</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+          <li><a href="prestasi.html">Prestasi</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h3>Hubungi kami</h3>
+        <ul>
+          <li><a href="https://wa.me/6282319390293?text=Halo%20Ruang%20Pintar" target="_blank" rel="noopener">WhatsApp 0823-1939-0293</a></li>
+          <li><a href="mailto:ruangpintarbdg@gmail.com">ruangpintarbdg@gmail.com</a></li>
+          <li><a href="https://instagram.com/ruangpintarbdg" target="_blank" rel="noopener">Instagram @ruangpintarbdg</a></li>
+          <li><a href="https://www.tiktok.com/@ruangpintarbdg" target="_blank" rel="noopener">TikTok @ruangpintarbdg</a></li>
+          <li><a href="https://t.me/RuangPintar" target="_blank" rel="noopener">Telegram @RuangPintar</a></li>
+          <li><a href="https://x.com/ruangpintarbdg" target="_blank" rel="noopener">Twitter @ruangpintarbdg</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="footer-copy">&copy; 2026 Ruang Pintar Bimbingan Belajar. Girimekar, Cilengkrang, Kabupaten Bandung.</p>
+  </footer>
+
+  <dialog id="serviceModal" class="modal" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button type="button" class="modal-close" aria-label="Tutup">&times;</button>
+      <div id="modalBody"></div>
+
+      <a id="modalWa" class="btn btn-primary modal-wa" href="#" target="_blank" rel="noopener">Daftar via WhatsApp</a>
+
+      <div class="modal-qr" id="modalQr">
+        <p class="qr-or"><span>atau scan barcode</span></p>
+        <div class="qr-box" id="qrBox"></div>
+        <p class="qr-caption">Scan dengan kamera HP untuk mendaftar, lalu pilih program yang diminati</p>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
